@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/download.png" type="image/x-icon">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+
+<body>
+    <div id="top-border"></div>
+    <div id="page">
+        <div class="Box" id="alarm">
+            <div id="alarm-heading">Alarm</div>
+            <div id="alarm-img"><img src="Images/isolated-white-alarm-clock_1389-937-PhotoRoom.png-PhotoRoom.png"
+                    alt="Alarm Clock"></div>
+            <div class="content">
+                <div id="content-1">
+                    <div class="column"><select>
+                            <option value="Hours" selected disabled hidden>Hours</option>
+                        </select></div>
+                    <div class="column"><select>
+                            <option value="Minutes" selected disabled hidden>Minutes</option>
+                        </select></div>
+                    <div class="column"><select>
+                            <option value="AM/PM" selected disabled hidden>AM/PM</option>
+                        </select></div>
+                </div>
+                <div id="content-2">
+                    <button>Set Alarm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="clock">
+        <!-- <img id="clock-img" src="Images/clock-img.png" alt="Clock Image"> -->
+        <div class="clock">
+            <div class=" Connector"></div>
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+    </div>
+    <div class="Box" id="time">
+        <div class="Box-time-item" id="Box-day"></div>
+        <div class="Box-time-item" id="Box-date"></div>
+        <div class="Box-time-item" id="Box-time"></div>
+    </div>
+    </div>
+    <div id="bottom-border"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
