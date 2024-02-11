@@ -23,6 +23,7 @@ JavaScript: Interactive elements and functionality
 Clone or download the repository.
 Open the index.html file in your web browser.
 Set an alarm and explore the features!
+Or go to the URL : https://udhay-project-7-alarm-clock.netlify.app/
 
 ## Customization:
 You can modify the HTML, CSS, and JavaScript files to customize the appearance and behavior of the alarm clock.
